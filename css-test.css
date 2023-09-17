@@ -1,0 +1,49 @@
+body{
+    width: 1000px;
+}
+
+.header{
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.coach_tech{
+    display: inline-block;
+    color: rgb(0, 0, 100);
+    font-size: 25px;
+    margin: 15px;
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    color: rgb(0, 0, 110);
+    text-align: right;
+    list-style: none;
+    margin: 0px 15px;
+}
+
+img{
+    margin: 0 0 0 auto;
+    display: block;
+    width: 50%;
+    position: relative;
+    top: 18vh;
+}
+
+.smile{
+    display: inline-block;
+    font-size: 50px;
+    margin: 0;
+    line-height: 0px;
+}
+
+.blue-box{
+    width: 75%;
+    height: 25vh;
+    background: rgb(0, 0, 110);
+}
